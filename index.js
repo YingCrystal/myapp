@@ -20,7 +20,7 @@ app.get('/',(req,resp)=>{
     //set status code
     resp.status(200)
     //send the response
-    resp.send(`<h1>The current time is ${new Date()}/</h1>`)
+    resp.send(`<h1>The time is ${new Date()}/</h1>`)
 })
 //Start webapplication
 app.listen(port,()=>{
